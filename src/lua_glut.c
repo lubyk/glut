@@ -38,7 +38,7 @@
 #include <GLUT/glut.h>
 #include <stdlib.h>
 #else
-#include <GL/gl.h>
+#include <GL/freeglut.h>
 #include <malloc.h>
 #endif
 

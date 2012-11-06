@@ -24,5 +24,5 @@ target_link_libraries(${target} ${GLUT_LIBRARIES})
 #  install                                     
 # --------------------------------------------------------------
 install(TARGETS ${target}
-  DESTINATION lib/lubyk
+  DESTINATION ${LUBYK_LIB}/lib
 )
